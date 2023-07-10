@@ -6,10 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home</title>
+
+    <?php
+    
+    $name = 'World';
+    $greeting = 'Hello';
+    
+    ?>
+
 </head>
 
 <body>
-    <h1>Hello World!</h1>
+    <h1>{{ $greeting }} {{ $name }}!</h1>
 </body>
 
 </html>
