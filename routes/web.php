@@ -22,4 +22,10 @@ Route::get('/', function () {
 
     return view('home', compact('name', 'surname'));
 
-});
+})->name('home');
+
+Route::get('/about', function () {
+
+    return view('about');
+
+})->name('about');
