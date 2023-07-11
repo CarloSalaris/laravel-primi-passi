@@ -7,17 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home</title>
 
-    <?php
-    
-    $name = 'World';
-    $greeting = 'Hello';
-    
-    ?>
-
 </head>
 
 <body>
-    <h1>{{ $greeting }} {{ $name }}!</h1>
+    <h1>Hello World! from {{ $name }} {{ $surname }}</h1>
 </body>
 
 </html>
